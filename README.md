@@ -1,5 +1,14 @@
-PID Cat
+pidcat3
 =======
+Small update to Jake Wharton's port of the logcat color script into python3. Why? because I updated my mac to macOS Sonoma and pidcat couldn't run.
+
+```
+git clone https://github.com/kyuds/pidcat3.git
+cd pidcat3 && pip install .
+```
+
+PID Cat
+-------
 
 An update to Jeff Sharkey's excellent [logcat color script][1] which only shows
 log entries for processes from a specific application package.
